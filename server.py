@@ -3,7 +3,7 @@ from weather import get_current_weather
 from waitress import serve
 
 app = Flask(__name__)
-
+app.use_static = True
 
 @app.route('/')
 @app.route('/index')
