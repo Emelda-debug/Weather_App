@@ -4,12 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.results-image {
+    background-image: url("/static/assets/images/plant.jpg");
+    background-size: cover; 
+  }
+  .city_not_found_image {
+    background-image: url("/static/assets/images/3.jpg");
+    background-size: cover;
+  }
 body {
     background-image: url(/static/assets/images/nature-3082832_1280.jpg);
     background-size: cover;
     padding: 2rem;
-    background-color: #a06868;
+    background-color: #140303;
     color: whitesmoke;
     min-height: 100vh;
     display: flex;
